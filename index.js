@@ -3,7 +3,7 @@ function square(number) {
 }
   
 function login() {
-    let oauthEndpoint = "https://keycloak.app.adapa.me/realms/calorie-tracker"
+    let oauthEndpoint = "https://keycloak.app.adapa.me/realms/calorie-tracker/protocol/openid-connect/auth"
     let loginForm = document.createElement("form")
     loginForm.setAttribute("method","GET")
     loginForm.setAttribute("action",oauthEndpoint)
