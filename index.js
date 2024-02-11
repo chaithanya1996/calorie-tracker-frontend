@@ -5,7 +5,7 @@ function square(number) {
 function login() {
     let oauthEndpoint = "https://keycloak.app.adapa.me/realms/calorie-tracker/account"
     let loginForm = document.createElement("form")
-    loginForm.setAttribute("method","POST")
+    loginForm.setAttribute("method","GET")
     loginForm.setAttribute("action",oauthEndpoint)
 
     let oauthParameters = {
