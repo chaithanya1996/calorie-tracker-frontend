@@ -5,12 +5,12 @@ function square(number) {
 function login() {
     let oauthEndpoint = "https://keycloak.app.adapa.me/realms/calorie-tracker"
     let loginForm = document.createElement("form")
-    loginForm.setAttribute("method","GET")
+    loginForm.setAttribute("method","POST")
     loginForm.setAttribute("action","oauthEndpoint")
 
     let oauthParameters = {
         "client_id" : "calorie-tracker-app",
-        "redirect_uri" : "",
+        "redirect_uri" : "https://calorie-tracker.pages.dev/login",
         "state" : "pass-through-value",
         "response_type" : "token",
         "scope" : "calorie-user"
