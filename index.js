@@ -6,7 +6,7 @@ function login() {
     let oauthEndpoint = "https://keycloak.app.adapa.me/realms/calorie-tracker"
     let loginForm = document.createElement("form")
     loginForm.setAttribute("method","POST")
-    loginForm.setAttribute("action","oauthEndpoint")
+    loginForm.setAttribute("action",oauthEndpoint)
 
     let oauthParameters = {
         "client_id" : "calorie-tracker-app",
