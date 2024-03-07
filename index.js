@@ -12,7 +12,7 @@ function login() {
         "client_id" : "calorie-tracker-app",
         "redirect_uri" : "https://calorie-tracker.pages.dev/login",
         "state" : "pass-through-value",
-        "response_type" : "token",
+        "response_type" : "code",
         "scope" : "calorie-user"
     }
 
