@@ -52,3 +52,5 @@ svg.selectAll("rect")
 
 });
 }
+
+console.log(document.URL);
