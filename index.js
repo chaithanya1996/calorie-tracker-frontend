@@ -10,7 +10,7 @@ function login() {
 
     let oauthParameters = {
         "client_id" : "calorie-tracker-app",
-        "redirect_uri" : "https://calorie-tracker.pages.dev/login",
+        "redirect_uri" : "https://calorie-tracker.pages.dev/callback",
         "state" : "pass-through-value",
         "response_type" : "code",
         "scope" : "calorie-user"
