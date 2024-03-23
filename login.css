@@ -32,6 +32,7 @@ button{
     background-image: linear-gradient(to right, #FFAFBD 0%, #ffc3a0  51%, #FFAFBD  100%);
     margin: 10px;
     padding: 15px 45px;
+    width: 100px;
     text-align: center;
     text-transform: uppercase;
     transition: 0.5s;
