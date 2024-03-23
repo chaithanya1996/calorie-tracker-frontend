@@ -1,5 +1,6 @@
 body{
     background-color:rgb(233, 230, 230);
+    background-image: url("assets/7184815e5e.png");
     font-family: "roboto";
 }
 
@@ -8,10 +9,14 @@ body{
     height: 250px;
     align-content: center;
     margin: 50px;
-    outline: dotted 1px black;
+    outline:  1px grey;
     display: block;
+    border-radius: 30px;
     justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
 }
+
 
 button{
     background-image: linear-gradient(to right, peachpuff 0%, #1fddff  51%, peachpuff  100%);
@@ -29,13 +34,13 @@ button{
 
          
 .auth-button {
-    background-image: linear-gradient(to right, #FFAFBD 0%, #ffc3a0  51%, #FFAFBD  100%);
+    background-image: linear-gradient(to right, skyblue 0%, #ffc3a0  51%, #FFAFBD  100%);
     margin: 10px;
     padding: 15px 45px;
     width: 180px;
     text-align: center;
     text-transform: uppercase;
-    transition: 0.5s;
+    transition: 0.8s;
     background-size: 200% auto;           
     box-shadow: 0 0 20px #eee;
     border-radius: 10px;
@@ -48,10 +53,10 @@ button{
   }
  
   .al-center {
-    border: 5px solid;
     position: absolute;
     top: 45%;
     left: 45%;
     transform: translate(-50%, -50%);
     padding: 10px;
+    background-image: url("assets/white-painted-wall-texture-background_1001861-53.avif");
   }
